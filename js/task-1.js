@@ -1,13 +1,3 @@
-// const getUserNames = (users) => {
-//     arr = [];
-//     users.forEach((element) => {
-//         arr.push(element.name)
-// })
-// return arr;
-// }
-
-// поменять на метод map
-
 const getUserNames = (users) => users.map(user => user.name);
 
 console.log(
